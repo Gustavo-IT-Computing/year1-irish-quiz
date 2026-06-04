@@ -1,0 +1,180 @@
+/* applying CSS to the full page */
+* {
+    box-sizing: border-box; /* apllying border-box to the box-sizing */
+    font-family: Arial, sans-serif; /* apllying Arial as the font-family */
+  }
+/* applying Css to the body of the page */
+body {
+    /* importing the image to be the background of the page */
+    background-image: url(https://www.planetware.com/wpimages/2019/09/ireland-in-pictures-most-beautiful-places-to-visit-hapenny-bridge-dublin.jpg);
+    background-repeat: no-repeat; /* applying no-repeat for the backgroung image */
+    background-attachment: fixed; /* applying fixed to the backgroung image to not change its properties */
+    background-size: cover; /* applying cover to the backgroung image to cover the full page */ 
+}
+/* applying CSS to the class container */
+.container {
+    background-color: beige; /* applying beige as the backgroung color */
+    padding: 3.1em 1.8em; /* applying the padding measures */
+    width: 80%; /* applying 80% for the width*/
+    max-width: 37.5em; /* applying 37.5 em as the maximun width */
+    margin: 0 auto; /* applying 0 auto for the margin */
+    position: absolute; /* applying absolute as position */
+    transform: translate(-50%, -50%); /* applying translate and the measures as the transform */
+    top: 50%; /* applying the percentage to the top*/
+    left: 50%; /* applying the percentage to the lef side */
+    border-radius: 0.6em; /* applying 0.6 em as the border-radius */
+}
+/* applying CSS to the id intro */
+#intro {
+    text-align: center; /* applying center for the align of the text */
+    margin-bottom: 20px; /* applying 20px as the margin-bottom */
+}
+/* applying CSS to the h1 of the id intro */  
+#intro h1 {
+    font-size: 36px; /* applying 36px as the font-size */
+    margin-bottom: 20px; /* applying 20px as the margin-bottom */
+    color: rgb(50, 183, 50); /* applying color to the heading */
+}
+/* applying CSS to the paragraph of the id intro */  
+#intro p {
+    font-size: 18px; /* applying 18px as the font-size */
+    margin-bottom: 10px; /* applying 10px as the margin-bottom */
+}
+/* applying CSS to the input of the id intro */ 
+#intro input[type=text] {
+    padding: 10px; /* applying 10px as the padding */
+    font-size: 16px; /* applying 16px as the font-size */
+    border-radius: 5px; /* applying 5px as the border-radius */
+    border: none; /* applying none as the border */
+    margin-right: 10px; /* applying 10 px as the margin-right */
+    align-items: center; /* applying center as the align of the items*/
+}
+/* applying CSS to the button of the id intro */ 
+button {
+    padding: 10px; /* applying 10px as the padding */
+    font-size: 16px; /* applying 16px as the font-size */
+    border-radius: 5px; /* applying 5px as the border-radius */
+    border: none; /* applying none as the border */
+    background-color: #007bff; /* applying color to the background of the button */
+    color: #fff; /* applying color to the button */
+    cursor: pointer; /* applying pointer as the cursor */
+}
+/* applying CSS when hovers the button of the id intro */  
+#intro button:hover {
+    background-color: #0062cc; /* applying color */ 
+}
+/* applying CSS to the id prevBtn*/
+#prevBtn{
+    float: left; /* applying left as the float */
+}
+/* applying CSS to the id nextBtn */
+#nextBtn{
+    float: right; /* applying right as the float */
+}
+/* applying CSS to the id submitBtn */
+#submitBtn{
+    float: right; /* applying right as the float */
+}
+/* applying CSS to the id alertMessage */      
+#alertMessage {
+    color: red; /* applying red as the color */
+    text-align: center; /* applying center as the align of the text */
+    margin-bottom: 20px; /* applying 20px as the margin-bottom */
+}
+/* applying CSS to the id quiz */
+#quiz {
+    display: none; /* applying none as the display */
+    align-items: center; /* applying center as the align of the items */
+}
+/* applying CSS to the id questionNum */
+#questionNum{
+    font-size: 24px; /* applying 24px as the font-size */
+    margin-bottom: 10px; /* applying 10px as the margin-bottom */
+    text-align: center; /* applying center as the align of the text */
+    color: rgb(77, 143, 77); /* applying color */
+}
+/* applying CSS to the id questionTitle */  
+#questionTitle {
+    font-size: 20px; /* applying 20px as the font-size */
+    margin-bottom: 10px; /* applying10px as the margin-bottom */
+    text-align: center; /* applying center as the align of the items */
+}
+/* applying CSS to the id question inside the id quiz */  
+#quiz #question {
+    font-size: 20px; /* applying 20px as the font-size */
+    margin-bottom: 20px; /* applying 20px as the margin-bottom */
+    text-align: center; /* applying center as the align of the text */
+}
+/* applying CSS to the id choices inside the id quiz */  
+#quiz #choices {
+    margin-bottom: 20px; /* applying 20pz as the margin-bottom */
+    text-align: center; /* applying center as the align of the text */
+    margin: 0; /* applying 0 as the margin */
+}
+/* applying CSS to the id image inside the id quiz */  
+#quiz #image {
+    margin-bottom: 20px; /* applying 20px as the margin-bottom */
+}
+/* applying CSS to the button in the id quiz */  
+#quiz button {
+    padding: 10px; /* applying 10px as the padding */
+    font-size: 16px; /* applying 16px as the font-size */
+    border-radius: 5px; /* applying 5px as the border-radius */
+    border: none; /* applying none as the border */
+    background-color: #007bff; /* applying color to the background */
+    color: #fff; /* applying color */
+    cursor: pointer; /* applying pointer as the cursor */
+    margin-right: 10px; /* applying 10px as the magin on the right*/
+}
+/* applying CSS when hover the button inside the id quiz */  
+#quiz button:hover {
+    background-color: #0062cc; /* applying color to the background */
+}
+/* applying CSS to the id feedback */
+#feedback {
+    display: none; /* applying none as the display */
+    text-align: center; /* applying center as the align of the text */
+    margin-bottom: 20px; /* applying 20px as the margin-bottom */
+}
+/* applying CSS to the id score */  
+#score {
+    font-size: 36px; /* applying 36px as the font-size */
+    margin-bottom: 20px; /* applying 20px as the margin-bottom */
+}
+/* applying CSS to the paragraph of the id feedback */  
+#feedback p {
+    font-size: 20px; /* applying 20px as the font-size */
+    margin-bottom: 20px; /* applying 20px as the margin-bottom */
+} 
+/* applying CSS to the footer of the page */
+footer { 
+    position: absolute; /* applying absolute as the position */
+    bottom: 0; /* applying 0 ato the bottom so it displays on the bottom */
+    width: 100%; /* applying 100% as the width */
+    height: 50px; /* applying 50px as the height */
+    color: #fff; /* applying color to the footer */
+    text-align: center; /* applying center as the align of the text */
+    border-radius: 25px 10px / 10px 25px; /* applying values to the border-radius of the footer */
+    background-color: rgb(191, 217, 20); /* applying the color to the background of the border */
+    background-position: center; /* applying the position of the background border */
+    font-size: 1em; /* applying 1em as the size of the text on the footer */
+    text-align: center; /* applying center for the position of the text on the footer */
+}
+/* applying CSS to the h3 of the footer */  
+footer h3 {
+    margin: 0; /* applying 0 as the margin */
+    padding: 5px; /* applying 5px as the padding */
+    color: #666; /* applying color */
+}
+/* applying CSS to the link of the h3 on the footer */
+footer h3 a {
+    color: #666; /* applying color */
+    text-decoration: none; /* applying none as the text-decoration */
+}
+/* applying CSS to the link of the h3 whenever hovers over inside the footer */  
+footer h3 a:hover {
+    color: #333; /* applying color */
+    text-decoration: underline; /* applying underline as text-decoration */
+}
+  
+  

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--creating a link to the CSS -->
+    <link href="styles/new.css" rel="stylesheet" type="text/css">
+     <!-- creating a title with a name of Irish Quiz -->
+    <title>Irish Quiz </title>
+</head>
+<body>
+    <!--creating a div with an id called "container" that wraps the entire page -->
+    <div class="container">
+       <!--creating a div with an id called "intro" with few elements -->
+       <div id="intro">
+          <!-- creating a heading with -->
+          <h1>Welcome to the Irish Quiz</h1>
+          <!-- creating a paragraph -->
+          <p>Please enter an username to start the quiz:</p>
+          <!-- creating an input with a type called text and an id called name -->
+          <input type="text" id="name">
+           <!--creating a button with an id called startBtn -->
+           <button id="startBtn">Start</button>
+       </div>
+           <!-- creating a paragraph with an id called alertMesssage -->
+           <p id= "alertMessage"></p>
+        <!-- creating a div with an id called quiz -->
+        <div id="quiz">
+            <!-- creating a div with an id called questionNum -->
+            <div id="questionNum"></div>
+            <!-- creating a div with an id called questionTitle -->
+            <div id="questionTitle"></div>
+            <!-- creating a div with an id called question -->
+            <div id="question"></div>
+            <!-- creating a div with an id called choices -->
+            <div id="choices"></div>
+            <!-- creating a div with an id called image -->
+            <div id="image"></div>
+            <!-- creating a button with an id called prevBtn -->
+            <button id="prevBtn">Previous</button>
+            <!-- creating a button with an id called nextBtn -->
+            <button id="nextBtn">Next</button>
+            <!-- creating a l button with an id called restartBtn -->
+            <button onclick = location.reload() id="restartBtn">Restart Quiz </button>
+            <!-- creating a button with an id submitBtn -->
+            <button id="submitBtn">Submit Quiz</button>
+        </div>
+           <!-- creating a div with an id called feedback -->
+           <div id="feedback">
+              <!-- creating a h2 with an id called score -->
+              <div id="score"></div>
+              <!-- creating a paragraph with an id message -->
+              <p id="message"></p>
+              <button id="restart-button">Restart</button>
+            </div>
+    </div>
+        <!-- creating a footer with a heading inside  -->
+        <footer> 
+           <!--creating a heading with a name, studen number and a link to my e-mail -->
+           <h3> Quiz by: Gustavo_3092598  _  <a href="mailto:gustavo.andradecarvalho@student.griffith.ie" target="_blank" > gustavo.andradecarvalho@student.griffith.ie</a></h3>
+        </footer>
+    <!-- creating a script tag for the JS -->
+    <script src="scripts/script.js" ></script>    
+</body>
+</html>
